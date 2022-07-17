@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Manrope:wght@400;500;700&display=swap');
+:root{
+    --primary-font:'Lexend', sans-serif;
+    --secondary-font:'Manrope', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.8%;
+    scroll-behavior: smooth;
+    font-family: 'Lexend', sans-serif;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul>li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+/* header */
+.header{
+    padding-top: 2rem;
+    max-width: 144rem;
+}
+.header .row{
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    column-gap: 0.5rem;
+   
+}
+.logo img{
+    margin-left: 8rem;
+}
+.logo h4{
+    font-family:'Lexend', sans-serif ;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.menus ul{
+    margin-left: 3rem;
+}
+.menus li{
+    font-size: 1.6rem;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin-right: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.menus li:hover{
+    border-bottom: 3px solid #1acc0a;
+    border-top: 3px solid #1acc0a;
+    transition: all 0.3 ease;
+
+}
+.startButton{
+    text-align: right;
+    
+}
+.startButton button{
+   width: 16.6rem;
+   height: 4.4rem;
+   border: none;
+   border-radius: 2.1rem;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-size: 1.6rem;
+   font-family: var(--secondary-font);
+   font-weight: 600;
+   margin-right: 4rem;
+  
+   
+}
+
+/* hero */
+.hero .left_hero h1{
+    font-size: 4.5rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 6.2rem;
+    margin-left: 6.5rem;
+    margin-top: 12rem;
+}
+.hero .left_hero .yellow_divider{
+    width: 19rem;
+    height: 0.3rem;
+    background-color: #FFE107;
+    display: block;
+    margin-left: 17rem;
+    margin-top: -1rem;
+}
+.hero .left_hero p{
+   
+  margin-top: 3rem;
+    margin-left: 6.5rem;
+    width: 45rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #8C8E92;
+}
+.hero .left_hero .button{
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}
+.hero .left_hero .button button{
+    width: 17.2rem;
+    height: 5.6rem;
+    border-radius: 2.8rem;
+    
+    color: #000000;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.left_hero .button .button1{
+    background-color: #C5EC00;
+    border: none;
+    margin-right: 2rem;
+}
+.left_hero .button .button2{
+    background-color: #FFFFFF;
+    border: 1px solid #8C8E92;
+}
+.hero .right_hero img{
+    margin-top: -6.5rem;
+    position: absolute;
+    z-index: -10000;
+}
+
+.company{
+    margin-left: 3rem;
+    margin-right: 2.6rem;
+    margin-top: 30rem;
+    background-color: #FAFAFA;
+    height: 30vh;
+
+   
+}
+.company_section{
+    padding-top: 6rem;
+
+}
+.company_section .title{
+    text-align: center;
+    font-size: 2.4rem;
+    letter-spacing: 0.2px;
+    line-height: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color:  #151B26;
+}
+.company_section .img1{
+   padding-left: 4rem;
+}
+.company_section .ash{
+    display: block;
+    width: 105rem;
+    height: 1px;
+    background-color: #cccdd0;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.portfolio_content{
+    margin-top: 3rem;
+    margin-left: 20rem;
+    padding-bottom: 3rem;
+}
+.portfolio_content h2, .portfolio h2{
+    font-size: 4.6rem;
+    line-height: 6.2rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+.portfolio_content p{
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #979797;
+    margin-bottom: 4rem;
+  
+}
+.portfolio_content img{
+    box-shadow: 10px -10px #C5EC00;
+    width: 86.8rem;
+}
+
+.portfolio{
+    text-align: left;
+    
+    width: 76rem;
+}
+.portfolio .porttag{
+    font-size: 1.6rem;
+    letter-spacing: 1.12px;
+    font-family: monospace;
+    font-weight: 800;
+    color: #ECCF00;
+}
+.portfolio .descr{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 4rem;
+    color: #8C8E92;
+    margin-left: 2rem;
+}
+
+.card2{
+    padding-top: 3rem;
+}
+.card4{
+    padding-top: 4rem;
+}
+
+.Faq{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+.Faq h3{
+    font-size: 4.6rem;
+    font-weight: 500;
+}
+.Faq p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* blog */
+
+.blog{
+    overflow-x: hidden;
+    background-color: #E5E5E5;
+    padding-bottom: 6rem;
+}
+.blog_title{
+    text-align: center;
+}
+.blog_title h3{
+    font-size: 4rem;
+    font-family: var(--font-family);
+    color: #000000;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+.blog_title p{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+    color:#8C8E92 ;
+    margin-bottom: 3rem;
+}
+
+.blog_content{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.blog_item{
+    border-radius: 1rem;
+    width: 34rem;
+    height: 45rem;
+    background: #FFFFFF;
+
+}
+.blog_item .detail{
+    background: #FFFFFF;
+    margin-top: -3rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-radius: 0 1rem 1rem;
+   
+   width: 100%;
+
+}
+
+.blog_item img{
+    width: 34rem;
+    margin-bottom: 0px;
+    margin-left: -.7rem;
+    
+}
+.blog_item h4{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+    margin-left: 2rem;
+    line-height: 3rem;
+    width: 29.1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.blog_item p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    width: 30.1rem;
+    font-family: var(--font-family);
+    
+}
+.blog_item a{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.blog_item i{
+    color: #1D976C;
+    font-size: 1.4rem;
+}
+.button{
+    text-align: center;
+}
+
+.blog .button button{
+    width: 23.7rem;
+    height: 7.2rem;
+    background-color: #E5E5E5;
+    border: 1px solid #006441;
+    color: #006441;
+    font-size: 2rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.footer{
+    max-width: 144rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+   
+    overflow-x: hidden;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.footer .newsletter{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+.footer .newsletter h3{
+    font-size: 3.6rem;
+}
+.footer ul>li{
+    display: block;
+}
+.foo{
+    display:flex ;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.footer img{
+ width: 2rem;
+  height: 2rem;
+}
+ 
+.footer .logo p{
+    font-size: 2.4rem;
+}
+
+
+.main_footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer button{
+    width: 17.2rem;
+    height: 5.6rem;
+    border-radius: 2.8rem;
+    background-color:  #C5EC00;
+    color: #000000;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    border: none;
+    margin-left: 12rem;
+}
+
+
+
